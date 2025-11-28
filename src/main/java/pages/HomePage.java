@@ -35,7 +35,7 @@ public class HomePage {
         return new ContactUsPage(driver);
     }
 
-    public String hoverAddToCartModel(int index){
+    public String Model(int index){
         WebElement product= driver.findElements(productDiv).get(index);
         WebElement addToCartOne = driver.findElements(addToCart).get(index);
         Actions actions = new Actions(driver);

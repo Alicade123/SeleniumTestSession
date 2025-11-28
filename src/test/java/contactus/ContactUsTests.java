@@ -3,14 +3,14 @@ package contactus;
 import base.BaseTest;
 import org.testng.annotations.Test;
 
-import javax.naming.Name;
-import javax.security.auth.Subject;
+
 
 import static org.testng.Assert.assertEquals;
 
 public class ContactUsTests extends BaseTest {
     @Test
     public  void contactUsTests(){
+        //In This test
         var contactPage = homePage.clickContactUsLink();
         String name = "Alicade";
         String email = "abiturije@gmail.com";
